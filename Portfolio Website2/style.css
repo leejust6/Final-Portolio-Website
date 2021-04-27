@@ -1,0 +1,539 @@
+@font-face {
+  src: url(fonts/Helvetica-Bold.ttf);
+  font-family: hel;
+}
+
+@font-face {
+  src: url(fonts/akira.otf);
+  font-family: akira;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+  color: white;
+}
+
+a:hover, a:active {
+  color: #FF00FF;
+}
+
+body {
+    background-color: black;
+}
+
+/*---index---*/
+
+.homeheader img {
+  width: 70%;
+  height: auto;
+  margin-top: 20%;
+  margin-left: 2%;  
+}
+
+.homeheader nav {
+  background-color: black;
+  height: 40px;
+  font-family: akira;
+}
+
+.homeheader nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.homeheader nav ul li {
+  float: left;
+  display: inline;
+  font-size:220%;
+  padding-bottom: 16%;
+}
+
+.homeheader nav a:link, .homeheader nav a:visited {
+  color:#9400D3;
+  display: inline-block;
+  padding-right: 110px;
+}
+
+.homeheader nav a:hover, .homeheader nav a:active,
+.homeheader nav .active a:link, .homeheader nav .active a:visited {
+  color: #FF00FF;
+  text-shadow: none;
+}
+
+footer {
+  width: 100%;
+  float: left;
+  margin: 0%;
+  padding-top: 2%;
+}
+
+.homefooter p {
+  text-align: center;
+  font-family: akira;
+  color: white;
+}
+
+/*---foundation/about--*/
+
+.body {
+  margin: 0 auto;
+  width: 90%;
+  clear: both;
+  
+}
+
+.mainheader img {
+  width: 43%;
+  height: auto;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 0.5%;
+}
+
+.mainheader nav {
+  background-color: black;
+  height: 40px;
+  font-family: akira;
+}
+
+.mainheader nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.mainheader nav ul li {
+  float: left;
+  display: inline;
+  font-size:160%;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited {
+  color:#9400D3;
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited {
+  color: #FF00FF;
+  text-shadow: none;
+}
+
+
+.column {
+  float:left;
+  width: 50%;
+}
+
+.column img {
+  width: 40%;
+  height: auto;
+  margin: 10%;
+  margin-left: 30%;
+  border: 5px solid;
+  border-radius: 5px;
+  border-color: #9400D3;
+}
+
+.column p {
+  width: 70%;
+  font-family: hel;
+  color: white;
+  padding-top: 20%;
+  font-size: 180%;
+}
+
+
+.footer {
+  width: 100%;
+  float: left;
+  color:white;
+  background-color: black;
+  margin: 0%;
+  padding-top: 2%;
+}
+
+.footer p {
+  text-align: center;
+  font-family: akira;
+}
+
+/*---Projects---*/
+
+.projectlist {
+  line-height: 25px;
+  border-radius: 5px;
+  margin-left: 15%;
+  margin-top: 2%;
+  margin-bottom: 0%;
+  float: left;
+}
+
+.projects {
+  width: 85%;
+  float: left;
+  font-family: hel;
+  padding-bottom:;
+  color: white;
+}
+
+.projects header {
+  font-family: akira;
+  font-size: 170%;
+}
+
+.projects header a:hover, .projects header a:active,
+.projects header .active a:link, .projects header .active a:visited {
+  color: #FF00FF;
+  text-shadow: none;
+}
+
+.projects footer {
+  font-size: 160%;
+  font-style: italic;
+}
+
+.first {
+  background-color: #9400D3;
+  border-radius: 5px;
+  margin-bottom: 2%;
+  padding: 5%;
+}
+
+.first img {
+  width: 60%;
+  height: auto;
+  margin-left: 18%;
+  border-radius: 5px;
+}
+
+
+.second {
+  background-color: #9400D3;
+  border-radius: 5px;
+  margin-bottom: 2%;
+  padding: 5%;
+}
+
+.second img {
+  width: 60%;
+  height: auto;
+  margin-left: 18%;
+  border-radius: 5px;
+  border-color: #9400D3;
+}
+
+.pcolumn {
+  float:left;
+  width: 30%;
+}
+
+.pcolumn img {
+  width: 90%;
+  height: auto;
+  margin: 10%;
+  margin-left: 30%;
+  border-color: #9400D3;
+  border-radius: 5px;
+}
+
+.pcolumn p {
+  width: 90%;
+  font-family: hel;
+  color: white;
+  padding-top: 5%;
+  margin-left: 30%;
+  font-size: 130%;
+}
+
+
+.pfooter {
+  width: 100%;
+  float: left;
+  color:white;
+  background-color: black;
+  margin: 0%;
+  padding-top: 2%;
+}
+
+.pfooter p {
+  text-align: center;
+  font-family: akira;
+}
+
+
+
+/*---Resume--*/
+
+
+
+.resume {
+  line-height: 25px;
+  width: 100%;
+  float: left;
+  font-style: italic;
+}
+
+.resume header h2 {
+  font-family: akira;
+  font-size: 250%;
+  color: white;
+  margin-left: 10%;
+  margin-top: 5%
+}
+
+.x {
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  margin-right: 20%;
+  margin-bottom: 2%;
+}
+
+.resume header h3 {
+  font-family: akira;
+  font-size: 150%;
+  color: white;
+  margin-left: 80%;
+  margin-top: 5%;
+}
+
+.resume content p {
+  font-family: hel;
+  font-size: 100%;
+  color: white;
+  margin-left: 20%;
+  width: 65%;
+  font-style: normal;
+}
+
+.resume content h3 {
+  font-family: hel;
+  font-size: 150%;
+  color: white;
+  margin-left: 15%;
+}
+
+#resumeButton {
+  float: right;
+}
+
+/*---Contact--*/
+
+.contact {
+  width: 100%;
+  padding-bottom:2%;
+}
+
+.contact h1 {
+  color: white;
+  font-family: akira;
+  font-style: italic;
+  text-align: center;
+}
+
+.contact h2 {
+  color: white;
+  font-family: akira;
+  font-style: italic;
+  text-align: center;
+  font-size: 800%;
+}
+
+.contact h1 a:hover, .contact h1 a:active,
+.contact h1 .active a:link, .contact h1 .active a:visited {
+  color: #FF00FF;
+  text-shadow: none;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+button {
+  width: 200px;
+  height:70px;
+  color: white;
+  background-color: #9400D3;
+  border: none;
+  border-radius: 5px;
+  font-family: akira;
+}
+
+button:hover {
+  background-color: #FF00FF;
+}
+
+#contactButton {
+  float: left;
+  margin-left: 45%;
+}
+
+.card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 3px solid #FF00FF;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: black;
+  width: 500px;
+  max-width: 80%;
+  color: white;
+}
+
+.card.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.cardHeader {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #FF00FF;
+  font-family: akira;
+}
+
+.cardHeader .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.cardHeader .closeButton {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+}
+
+.cardBody {
+  padding: 10px 15px;
+  font-family: hel;
+  font-weight: bold;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+/* Responsive layout - Mobile */
+@media screen and (min-width: 150px) and (max-width: 600px) {
+  body{
+    width: 100%;
+    text-align: center;
+  }
+
+.homeheader nav a:link, .homeheader nav a:visited {
+  color:#9400D3;
+  display: inline-block;
+  padding-right: 110px;
+  }
+  .homeheader img {
+  width: 105%;
+  margin-top: 80%;
+  margin-left: -1.5%;
+  margin-bottom: 20%
+  }
+  .homeheader nav {
+  height: 80px;
+  }
+  .homeheader nav ul li {
+  width: 100%;
+  padding-bottom: 10%;
+  font-size: 200%;
+  }
+  .homeheader nav a:link, .homeheader nav a:visited {
+  padding-right: 30px;
+  }
+  .homefooter p {
+  margin-top: 10%;
+  font-size: 70%;
+  }
+  
+  
+  .mainheader img {
+  width: 100%;
+  height: auto;  
+  }
+  .mainheader nav {
+  height: 160px;
+  }
+  .mainheader nav ul {
+  list-style: none;
+  margin-top: 5%;
+  }
+  .mainheader nav ul li {
+  width: 100%;
+  font-size: 200%;
+  }
+  .column {
+    width: 100%;
+  }
+  .column img {
+    width: 70%;
+    margin: 5%;
+  }
+  .column p {
+    padding-top: 0%;
+    width: 100%;
+  }
+  .footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .footer p {
+  text-align: center;
+  font-size: 70%;
+  }
+  .projects header {
+  font-family: akira;
+  font-size: 120%;
+  }
+  .first img {
+  margin-left: 0%;
+  }
+  .second img {
+    margin-left: 0%;
+  }
+  .resume {
+  text-align: left;
+  }
+  .resume header h2 {
+  margin-top: 10%
+  }
+  #resumeButton {
+  float:none;
+  }
+  .contact h2 {
+  font-size: 400%;
+  }
+  .contact h1 {
+  font-size: 100%;
+  }
+  #contactButton {
+  float: left;
+  margin-left: 27%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+}
+
